@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='ja'>
+  <head>
+    <title>like to video</title>
+  </head>
+  <body>
+    <script type="text/javascript" src="js/swfobject.js"></script>
+    <script type="text/javascript" src="js/test.js"></script>
+    <div id="ytapiplayer">
+      You need Flash player 8+ and JavaScript enabled to view this video.
+    </div>
+
+    <script type="text/javascript">
+
+      var params = { allowScriptAccess: "always" };
+      var atts = { id: "myytplayer" };
+      swfobject.embedSWF(
+      "http://www.youtube.com/v/am_JID326gs?enablejsapi=1&playerapiid=ytplayer", 
+      "ytapiplayer", "425", "356", "8", null, null, params, atts);
+
+    </script>
+
+  </body>
+</html>
