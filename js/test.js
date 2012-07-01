@@ -1,3 +1,5 @@
+// todo: create youtube player model object,
+// and refactor event handlers
 function poll_video_current_time ( event ) {
     if ( event === 1 ) {
         setInterval( function ( event ) {
