@@ -1,5 +1,0 @@
-// 
-var view = {
-    notice : function () {
-    },
-};
